@@ -9,10 +9,15 @@ const useResizeObserver = (ref) => {
   useEffect(() => {
     const observeTarget = ref.current;
     const resizeObserver = new ResizeObserver((entries) => {
+      console.log(entries);
       entries.forEach(({ contentRect: { width } }) => {
         setDimensions([width, calcHeight(width)]);
       });
     });
+    console.log(
+      "🚀 ~ file: useResizeObserver.js ~ line 16 ~ resizeObserver ~ resizeObserver",
+      resizeObserver
+    );
 
     resizeObserver.observe(observeTarget);
 

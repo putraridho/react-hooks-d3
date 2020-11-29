@@ -15,13 +15,14 @@ code {
 .container {
   text-align: center;
   padding: 0 30px;
+  margin-top: 200px;
 }
 
 svg {
   display: block;
-  background: #eee;
+  /* background: #eee; */
   overflow: visible;
-  margin: 100px auto 30px;
+  margin: 30px auto;
   width: 100%;
 }
 
@@ -30,6 +31,18 @@ button {
   width: 180px;
   border: 1px solid black;
   border-radius: 4px;
-  background: transparent;
+  background: white;
   height: 30px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.gauge-wrapper {
+  width: 100%;
 }

@@ -1,4 +1,4 @@
-import { axisBottom, axisRight, max, scaleBand, scaleLinear, select } from "d3";
+import { axisBottom, axisRight, scaleBand, scaleLinear, select } from "d3";
 import { useEffect, useMemo, useRef } from "react";
 import useResizeObserver from "./useResizeObserver";
 
@@ -15,9 +15,7 @@ function BarChart({ data }) {
       .range([0, width])
       .padding(0.5);
 
-    const yScale = scaleLinear()
-      .domain([0, 150])
-      .range([height, 0]);
+    const yScale = scaleLinear().domain([0, 150]).range([height, 0]);
 
     const colorScale = scaleLinear()
       .domain([75, 100, 150])

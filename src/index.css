@@ -37,7 +37,8 @@ button {
 
 .video-container,
 .bb-container,
-.racing-bar-container {
+.racing-bar-container,
+.column-container {
   display: flex;
   padding: 0 30px;
   flex-direction: column;

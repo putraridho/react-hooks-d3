@@ -26,6 +26,12 @@ svg {
   width: 100%;
 }
 
+svg .country:hover {
+  stroke: black;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
 button {
   margin-bottom: 10px;
   width: 180px;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ResizeObserver from "resize-observer-polyfill";
 
-const calcHeight = (w) => (6 / 19) * w;
+const calcHeight = (w) => (1 / 2) * w;
 
 const useResizeObserver = (ref) => {
   const [dimensions, setDimensions] = useState([0, 0]);

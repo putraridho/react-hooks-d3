@@ -2,7 +2,7 @@ import { useState } from "react";
 import GeoChart from "./GeoChart";
 import data from "./GeoChart.world.geo.json";
 
-function App5() {
+function App6() {
   const [property, setProperty] = useState("pop_est");
   return (
     <div className="column-container">
@@ -21,4 +21,4 @@ function App5() {
   );
 }
 
-export default App5;
+export default App6;

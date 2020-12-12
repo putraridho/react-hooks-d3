@@ -59,3 +59,11 @@ button {
 .gauge-wrapper {
   width: 100%;
 }
+
+.fields {
+  display: flex;
+}
+
+.field {
+  margin: 0 10px;
+}
